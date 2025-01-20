@@ -1,6 +1,6 @@
 let currentData = []
 let ratedBooks = JSON.parse(localStorage.getItem('ratedBooks'))
-console.log("hi saad");
+
 
 async function call () {
   let content = await fetch(
